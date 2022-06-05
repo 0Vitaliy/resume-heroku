@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/resume-heroku/static/css/main.073c9b0a.css",
+    "main.js": "/resume-heroku/static/js/main.f2486ba6.js",
+    "index.html": "/resume-heroku/index.html",
+    "main.073c9b0a.css.map": "/resume-heroku/static/css/main.073c9b0a.css.map",
+    "main.f2486ba6.js.map": "/resume-heroku/static/js/main.f2486ba6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.f2486ba6.js"
+  ]
+}
