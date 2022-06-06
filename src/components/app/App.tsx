@@ -1,4 +1,5 @@
 import { BrowserRouter, Route, Routes, Navigate } from 'react-router-dom';
+import Candidates from '../../pages/candidates';
 import Layout from '../layout';
 
 import './App.css';
@@ -8,7 +9,8 @@ function App() {
     <BrowserRouter>
       <Layout>
         <Routes>
-          <Route path="*" element={<Navigate to="/" />} />
+          <Route path="*" element={<Navigate to="/candidates" />} />
+          <Route path="/candidates" element={<Candidates />} />
         </Routes>
       </Layout>
     </BrowserRouter>
